@@ -10,7 +10,7 @@ https://github.com/raghavmaheshwri/Raghav-Boob_Lab4/blob/main/Que%203%20to%20Que
 ## Question 9 Store PROCEDURE
 https://github.com/raghavmaheshwri/Raghav-Boob_Lab4/blob/main/Store_PROCEDURE%20Question%209.sql
 
-#Resuls 
+# Results 
 
 ##Q3) Solution: 
 -- 
