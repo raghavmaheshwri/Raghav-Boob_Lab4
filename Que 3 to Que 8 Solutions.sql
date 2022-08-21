@@ -36,11 +36,15 @@ inner join (SELECT product.PRO_ID, product.PRO_NAME, price_id_details.PRICING_ID
 inner join (SELECT PRICING_ID,PRO_ID FROM supplier_pricing) as price_id_details on price_id_details.PRO_ID = product.PRO_ID) 
 as p_details on p_details.PRICING_ID = order_details.PRICING_ID where order_details.ORD_DATE > '2021-10-05';
 
--- 8)	Display customer name and gender whose names start or end with character 'A'. 
+-- Q8)	Display customer name and gender whose names start or end with character 'A'. 
 
-SELECT CUS_NAME,CUS_GENDER FROM customer where CUS_NAME like 'A%' or CUS_NAME like '%A';
+-- Solution 1 -----------------
+SELECT CUS_NAME,CUS_GENDER FROM customer where CUS_NAME like '%A%';
 
--- 9)	Create a stored procedure to display supplier id, name, rating and Type_of_Service. 
+-- Solutions 2 -----------------
+SELECT CUS_NAME,CUS_GENDER FROM customer where CUS_NAME like '%A' or CUS_NAME like 'A%';
+-- ----------------------------
+-- Q9)	Create a stored procedure to display supplier id, name, rating and Type_of_Service. 
 -- For Type_of_Service, If rating =5, print “Excellent Service”,If rating >4 print “Good Service”, If rating >2 print “Average Service” else print “Poor Service”.
 
 call display_type_of_service;
