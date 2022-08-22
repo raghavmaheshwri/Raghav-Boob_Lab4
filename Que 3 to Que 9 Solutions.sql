@@ -49,5 +49,3 @@ SELECT CUS_NAME,CUS_GENDER FROM customer where CUS_NAME like '%A' or CUS_NAME li
 
 call display_type_of_service;
 
-
-

@@ -3,8 +3,8 @@ BEGIN
 	SELECT supplier.SUPP_ID,supplier.SUPP_NAME, avg_ratings.avgRating, 
 CASE
     WHEN avg_ratings.avgRating = 5 THEN "Excellent Service"
-    WHEN avg_ratings.avgRating >=4 THEN "Good Service"
-    WHEN avg_ratings.avgRating >=2 THEN "Average Service"
+    WHEN avg_ratings.avgRating > 4 THEN "Good Service"
+    WHEN avg_ratings.avgRating > 2 THEN "Average Service"
     ELSE "Poor Service"
 END as Type_of_Service
 FROM supplier as supplier 
