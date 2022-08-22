@@ -38,6 +38,7 @@ https://github.com/raghavmaheshwri/Raghav-Boob_Lab4/blob/main/Store_PROCEDURE%20
 
 ##Q9) Solution : 
 --
-![image](https://user-images.githubusercontent.com/76401746/185805520-96b9c5a3-d1c2-4f7b-bb9a-5e012c5a2e82.png)
+![image](https://user-images.githubusercontent.com/76401746/185884619-631da71d-8041-4fdb-b235-6d2bbc4fe636.png)
+
 
 
